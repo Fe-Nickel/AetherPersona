@@ -1,0 +1,1447 @@
+{
+  "version": 4,
+  "traits": [
+    {
+      "key": "order",
+      "label": "秩序 ↔ 混沌",
+      "low": "混沌",
+      "high": "秩序"
+    },
+    {
+      "key": "empathy",
+      "label": "共情 ↔ 理性",
+      "low": "理性",
+      "high": "共情"
+    },
+    {
+      "key": "boldness",
+      "label": "勇进 ↔ 谨慎",
+      "low": "谨慎",
+      "high": "勇进"
+    },
+    {
+      "key": "sociability",
+      "label": "入世 ↔ 孤高",
+      "low": "孤高",
+      "high": "入世"
+    },
+    {
+      "key": "curiosity",
+      "label": "探知",
+      "low": "守成",
+      "high": "探知"
+    },
+    {
+      "key": "duty",
+      "label": "担当",
+      "low": "自守",
+      "high": "担当"
+    },
+    {
+      "key": "pragmatism",
+      "label": "务实",
+      "low": "理想",
+      "high": "务实"
+    },
+    {
+      "key": "mysticism",
+      "label": "神秘",
+      "low": "世俗",
+      "high": "神秘"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "即使队友不认同，我也会坚持按既定规则处理问题。",
+      "deltas": {
+        "order": 1,
+        "duty": 0.25
+      }
+    },
+    {
+      "id": "q2",
+      "text": "遇到看不懂的东西，我会忍不住去弄清楚。",
+      "deltas": {
+        "curiosity": 1,
+        "boldness": 0.2
+      }
+    },
+    {
+      "id": "q3",
+      "text": "做决定时，我会先考虑它会影响到谁的情绪。",
+      "deltas": {
+        "empathy": 1,
+        "sociability": 0.25
+      }
+    },
+    {
+      "id": "q4",
+      "text": "答应过的事，即使没人监督我也会做完。",
+      "deltas": {
+        "duty": 1,
+        "order": 0.25
+      }
+    },
+    {
+      "id": "q5",
+      "text": "没人愿意先动的时候，通常是我先迈出那一步。",
+      "deltas": {
+        "boldness": 1,
+        "duty": 0.2
+      }
+    },
+    {
+      "id": "q6",
+      "text": "有些事我说不清理由，但我就是知道。",
+      "deltas": {
+        "mysticism": 1,
+        "curiosity": 0.2
+      }
+    },
+    {
+      "id": "q7",
+      "text": "在人多的地方，我反而更容易进入状态。",
+      "deltas": {
+        "sociability": 1,
+        "empathy": 0.2
+      }
+    },
+    {
+      "id": "q8",
+      "text": "做决定之前，我会先算清楚成本和回报。",
+      "deltas": {
+        "pragmatism": 1,
+        "order": 0.2
+      }
+    },
+    {
+      "id": "q9",
+      "text": "对错只看事实，情绪不该影响判断。",
+      "deltas": {
+        "empathy": -1,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q10",
+      "text": "出发前，我习惯先把流程和分工定清楚。",
+      "deltas": {
+        "order": 0.9,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q11",
+      "text": "只学用得到的东西，其余的我懒得深究。",
+      "deltas": {
+        "curiosity": -1,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q12",
+      "text": "该有人站出来的时候，我不太会往后躲。",
+      "deltas": {
+        "duty": 0.9,
+        "boldness": 0.3
+      }
+    },
+    {
+      "id": "q13",
+      "text": "没有十足把握之前，我不会轻易表态。",
+      "deltas": {
+        "boldness": -1,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q14",
+      "text": "热闹的场合结束后，我需要很久才能缓过来。",
+      "deltas": {
+        "sociability": -1,
+        "mysticism": 0.2
+      }
+    },
+    {
+      "id": "q15",
+      "text": "有些事值不值得，比划不划算更重要。",
+      "deltas": {
+        "pragmatism": -1,
+        "mysticism": 0.3
+      }
+    },
+    {
+      "id": "q16",
+      "text": "玄乎的说法，很难让我当真。",
+      "deltas": {
+        "mysticism": -1,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q17",
+      "text": "计划随时可以推翻，我很少按原定流程走。",
+      "deltas": {
+        "order": -1,
+        "boldness": 0.2
+      }
+    },
+    {
+      "id": "q18",
+      "text": "别人话没说完，我大概能猜到他在难受什么。",
+      "deltas": {
+        "empathy": 0.9,
+        "mysticism": 0.2
+      }
+    },
+    {
+      "id": "q19",
+      "text": "我常为了一个无关紧要的问题多花几个小时。",
+      "deltas": {
+        "curiosity": 1,
+        "pragmatism": -0.3
+      }
+    },
+    {
+      "id": "q20",
+      "text": "不是我的责任，我不太会主动揽过来。",
+      "deltas": {
+        "duty": -1,
+        "pragmatism": 0.3
+      }
+    },
+    {
+      "id": "q21",
+      "text": "比起反复确认，我更愿意先做起来再说。",
+      "deltas": {
+        "boldness": 0.9,
+        "order": -0.2
+      }
+    },
+    {
+      "id": "q22",
+      "text": "遇到难题，我会先找人聊一聊。",
+      "deltas": {
+        "sociability": 0.9,
+        "empathy": 0.25
+      }
+    },
+    {
+      "id": "q23",
+      "text": "我更愿意选确定能成的方案，而不是最好看的。",
+      "deltas": {
+        "pragmatism": 0.9,
+        "duty": 0.2
+      }
+    },
+    {
+      "id": "q24",
+      "text": "我常觉得，世界背面还有一层没说破的东西。",
+      "deltas": {
+        "mysticism": 1,
+        "curiosity": 0.2
+      }
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "oathkeeper",
+      "title": "黄金誓约者",
+      "motto": "规则不是枷锁，是我替他人挡下的风。",
+      "desc": "你把秩序当作一种体贴，把挺身而出当作日常。人们信赖你，因为你从不承诺自己做不到的事。",
+      "profile": {
+        "order": 0.85,
+        "empathy": 0.6,
+        "boldness": 0.7,
+        "sociability": 0.7,
+        "duty": 0.9,
+        "pragmatism": 0.3,
+        "curiosity": -0.1,
+        "mysticism": 0.1
+      },
+      "bias": -0.0628
+    },
+    {
+      "id": "peakpriest",
+      "title": "孤峰祭司",
+      "motto": "我听得见高处的声音，所以必须一个人站上去。",
+      "desc": "你相信某种高于众人的东西，也愿意为此放弃被理解的舒适。你的温柔藏在很远的沉默里。",
+      "profile": {
+        "order": 0.45,
+        "empathy": 0.75,
+        "boldness": -0.2,
+        "sociability": -0.9,
+        "duty": 0.6,
+        "pragmatism": -0.3,
+        "curiosity": 0.4,
+        "mysticism": 0.95
+      },
+      "bias": 0.0033
+    },
+    {
+      "id": "vigil",
+      "title": "圣泉守夜人",
+      "motto": "灯不灭，回来的人就找得到路。",
+      "desc": "你的强大在于稳定。别人慌乱的夜里，你仍在原地，把最琐碎的事一件件做完。",
+      "profile": {
+        "order": 0.7,
+        "empathy": 0.9,
+        "boldness": -0.4,
+        "sociability": 0.3,
+        "duty": 0.95,
+        "pragmatism": 0.4,
+        "curiosity": -0.2,
+        "mysticism": 0.3
+      },
+      "bias": -0.0012
+    },
+    {
+      "id": "chronicler",
+      "title": "壁炉记述者",
+      "motto": "总得有人记得，火是怎么烧起来的。",
+      "desc": "你不争辩，只记录。看似退在角落，其实你比谁都清楚这个世界的来龙去脉。",
+      "profile": {
+        "order": 0.55,
+        "empathy": 0.35,
+        "boldness": -0.65,
+        "sociability": -0.55,
+        "duty": 0.5,
+        "pragmatism": 0.2,
+        "curiosity": 0.85,
+        "mysticism": 0.4
+      },
+      "bias": 0.0632
+    },
+    {
+      "id": "arbiter",
+      "title": "铁律裁决官",
+      "motto": "我先承担代价，再谈公平。",
+      "desc": "你习惯用理性拆解混乱，并乐于站在最前面承受结果。冷静之下是一套极强的责任感。",
+      "profile": {
+        "order": 0.9,
+        "empathy": -0.7,
+        "boldness": 0.6,
+        "sociability": 0.4,
+        "duty": 0.85,
+        "pragmatism": 0.7,
+        "curiosity": 0.1,
+        "mysticism": -0.2
+      },
+      "bias": 0.0324
+    },
+    {
+      "id": "spirescholar",
+      "title": "塔尖研究者",
+      "motto": "答案在更高一层，我不介意独自爬上去。",
+      "desc": "你对世界的兴趣是解剖式的。感情不是你的语言，但你解题时的专注本身就是一种光。",
+      "profile": {
+        "order": 0.5,
+        "empathy": -0.8,
+        "boldness": -0.4,
+        "sociability": -0.85,
+        "duty": 0.3,
+        "pragmatism": 0.5,
+        "curiosity": 1,
+        "mysticism": 0.35
+      },
+      "bias": 0.125
+    },
+    {
+      "id": "builder",
+      "title": "筑城匠人",
+      "motto": "别人写史诗，我来造能挡住风雪的东西。",
+      "desc": "你不相信口号，只相信结构。你愿意花很久做一件只有少数人看得见价值的事。",
+      "profile": {
+        "order": 0.85,
+        "empathy": 0.1,
+        "boldness": -0.5,
+        "sociability": 0.2,
+        "duty": 0.7,
+        "pragmatism": 1,
+        "curiosity": 0.1,
+        "mysticism": -0.4
+      },
+      "bias": 0.0575
+    },
+    {
+      "id": "gatekeeper",
+      "title": "禁书塔守望者",
+      "motto": "有些门必须有人守着，哪怕无人知晓。",
+      "desc": "你耐得住长久的低语与孤独。你掌握着不该轻易交出去的东西，也从不拿它炫耀。",
+      "profile": {
+        "order": 0.6,
+        "empathy": -0.4,
+        "boldness": -0.3,
+        "sociability": -0.9,
+        "duty": 0.8,
+        "pragmatism": 0.2,
+        "curiosity": 0.7,
+        "mysticism": 0.8
+      },
+      "bias": 0.0783
+    },
+    {
+      "id": "firesinger",
+      "title": "篝火歌者",
+      "motto": "路是走出来的，也是唱出来的。",
+      "desc": "你不在乎规矩，只在乎同行的人是不是笑了。你的存在本身就能把陌生地方变成故乡。",
+      "profile": {
+        "order": -0.65,
+        "empathy": 0.8,
+        "boldness": 0.65,
+        "sociability": 0.95,
+        "duty": 0.1,
+        "pragmatism": -0.1,
+        "curiosity": 0.45,
+        "mysticism": 0.1
+      },
+      "bias": -0.1111
+    },
+    {
+      "id": "wildchanter",
+      "title": "林间咒语者",
+      "motto": "我对着树林说话，它们比人诚实。",
+      "desc": "你的直觉几乎不需要理由，也常在人群里感到疲惫。你和万物之间有一条看不见的线。",
+      "profile": {
+        "order": -0.8,
+        "empathy": 0.7,
+        "boldness": 0.4,
+        "sociability": -0.7,
+        "duty": 0.1,
+        "pragmatism": -0.4,
+        "curiosity": 0.5,
+        "mysticism": 1
+      },
+      "bias": -0.0502
+    },
+    {
+      "id": "herbalist",
+      "title": "草根调香师",
+      "motto": "没有一味药是白采的。",
+      "desc": "你慢，但你稳。你在生活最不起眼的缝里收集东西，然后在某个关键时刻救下一个人。",
+      "profile": {
+        "order": -0.2,
+        "empathy": 0.9,
+        "boldness": -0.4,
+        "sociability": 0.5,
+        "duty": 0.5,
+        "pragmatism": 0.8,
+        "curiosity": 0.2,
+        "mysticism": 0.3
+      },
+      "bias": -0.0168
+    },
+    {
+      "id": "mistwatcher",
+      "title": "雾隐观察者",
+      "motto": "我不参与，我只是在看。",
+      "desc": "你退得恰到好处，因而看得格外清楚。你的沉默不是冷漠，而是把力气留给了真正在意的瞬间。",
+      "profile": {
+        "order": -0.35,
+        "empathy": 0.2,
+        "boldness": -0.5,
+        "sociability": -0.9,
+        "duty": 0.2,
+        "pragmatism": 0.4,
+        "curiosity": 0.65,
+        "mysticism": 0.5
+      },
+      "bias": 0.1093
+    },
+    {
+      "id": "cliffstracker",
+      "title": "断崖追迹人",
+      "motto": "目标在前，路我自己开。",
+      "desc": "你灵活、果断，讨厌被解释。规则于你是参考线，不是围墙。你的每一次冒险都算过赔率。",
+      "profile": {
+        "order": -0.75,
+        "empathy": -0.1,
+        "boldness": 1,
+        "sociability": 0.2,
+        "duty": 0.3,
+        "pragmatism": 0.7,
+        "curiosity": 0.4,
+        "mysticism": -0.1
+      },
+      "bias": -0.0078
+    },
+    {
+      "id": "mapless",
+      "title": "无籍测绘师",
+      "motto": "地图之外的地方，才值得画下来。",
+      "desc": "你用脑子走路，用好奇心导航。你不属于任何一张现有地图，所以你选择自己画一张。",
+      "profile": {
+        "order": -0.9,
+        "empathy": 0.1,
+        "boldness": 0.6,
+        "sociability": -0.6,
+        "duty": 0.1,
+        "pragmatism": 0.3,
+        "curiosity": 1,
+        "mysticism": 0.2
+      },
+      "bias": 0.0244
+    },
+    {
+      "id": "oddsmaker",
+      "title": "赌坊算筹师",
+      "motto": "运气是给没算清楚的人的借口。",
+      "desc": "你擅长在混沌里找概率。你看似随性，其实每一步都留了退路，也从不为一时得失失控。",
+      "profile": {
+        "order": -0.55,
+        "empathy": -0.6,
+        "boldness": 0.3,
+        "sociability": 0.45,
+        "duty": 0.1,
+        "pragmatism": 1,
+        "curiosity": 0.5,
+        "mysticism": -0.2
+      },
+      "bias": 0.0736
+    },
+    {
+      "id": "scavenger",
+      "title": "深渊拾荒者",
+      "motto": "没人要的碎片，拼起来就是真相。",
+      "desc": "你独自在别人不敢去的地方翻找，收集那些被丢弃的细节。你的世界很小，但格外锋利。",
+      "profile": {
+        "order": -0.7,
+        "empathy": -0.5,
+        "boldness": 0.2,
+        "sociability": -0.9,
+        "duty": 0.1,
+        "pragmatism": 0.6,
+        "curiosity": 0.8,
+        "mysticism": 0.3
+      },
+      "bias": 0.1021
+    }
+  ],
+  "races": [
+    {
+      "id": "human",
+      "name": "人类",
+      "talent": "适应性",
+      "desc": "在所有种族里最不起眼，也最无法被预测。",
+      "profile": {
+        "order": 0.1,
+        "empathy": 0.4,
+        "boldness": 0.4,
+        "sociability": 0.8,
+        "curiosity": 0.5,
+        "duty": 0.2,
+        "pragmatism": 0.8,
+        "mysticism": -0.5
+      },
+      "bias": 0.0245
+    },
+    {
+      "id": "elf",
+      "name": "月精灵",
+      "talent": "星辉感知",
+      "desc": "长夜中仍能看清方向的族群，言语极少。",
+      "profile": {
+        "order": 0.2,
+        "empathy": 0.6,
+        "boldness": -0.4,
+        "sociability": -0.8,
+        "curiosity": 0.6,
+        "duty": 0.3,
+        "pragmatism": -0.1,
+        "mysticism": 0.9
+      },
+      "bias": 0.0089
+    },
+    {
+      "id": "dwarf",
+      "name": "石民",
+      "talent": "岩骨",
+      "desc": "从山腹中凿出城邦的人，记得每一种石头的名字。",
+      "profile": {
+        "order": 0.9,
+        "empathy": 0.2,
+        "boldness": -0.7,
+        "sociability": 0.3,
+        "curiosity": 0.1,
+        "duty": 0.9,
+        "pragmatism": 0.95,
+        "mysticism": -0.3
+      },
+      "bias": 0.0889
+    },
+    {
+      "id": "orc",
+      "name": "荒原兽人",
+      "talent": "荒血",
+      "desc": "被逐出平原的族群，用伤疤记录族谱。",
+      "profile": {
+        "order": -0.8,
+        "empathy": -0.2,
+        "boldness": 1,
+        "sociability": 0.3,
+        "curiosity": 0.2,
+        "duty": 0.3,
+        "pragmatism": 0.6,
+        "mysticism": -0.2
+      },
+      "bias": 0.027
+    },
+    {
+      "id": "dragonkin",
+      "name": "龙裔",
+      "talent": "余烬",
+      "desc": "血脉里残留着某种会燃烧的东西。",
+      "profile": {
+        "order": -0.5,
+        "empathy": 0.2,
+        "boldness": 0.6,
+        "sociability": -0.6,
+        "curiosity": 0,
+        "duty": 0.8,
+        "pragmatism": -0.5,
+        "mysticism": 0.8
+      },
+      "bias": -0.0103
+    },
+    {
+      "id": "automaton",
+      "name": "构装体",
+      "talent": "律令核心",
+      "desc": "被制造出来又被遗弃的意识，正在自学成为人。",
+      "profile": {
+        "order": 0.9,
+        "empathy": -0.8,
+        "boldness": -0.4,
+        "sociability": -0.6,
+        "curiosity": 0.7,
+        "duty": 0.6,
+        "pragmatism": 0.9,
+        "mysticism": 0.1
+      },
+      "bias": 0.1218
+    }
+  ],
+  "jobs": [
+    {
+      "id": "ranger",
+      "name": "游侠",
+      "skill": "长径追踪",
+      "desc": "在大地褶皱间穿行，替人带回地图外的消息。",
+      "profile": {
+        "order": -0.9,
+        "empathy": -0.3,
+        "boldness": 0.6,
+        "sociability": -0.8,
+        "curiosity": 0.9,
+        "duty": -0.2,
+        "pragmatism": 0.3,
+        "mysticism": 0.4
+      },
+      "bias": 0.0416
+    },
+    {
+      "id": "knight",
+      "name": "誓卫",
+      "skill": "立誓之壁",
+      "desc": "以一道誓约换来一堵墙，站在所有人前面。",
+      "profile": {
+        "order": 0.8,
+        "empathy": 0.4,
+        "boldness": 0.65,
+        "sociability": 0.5,
+        "curiosity": -0.2,
+        "duty": 1,
+        "pragmatism": 0.3,
+        "mysticism": 0.1
+      },
+      "bias": -0.0632
+    },
+    {
+      "id": "mage",
+      "name": "咒术师",
+      "skill": "句式重构",
+      "desc": "把世界当作一本语法书，逐句改写。",
+      "profile": {
+        "order": 0.4,
+        "empathy": -0.8,
+        "boldness": -0.5,
+        "sociability": -0.8,
+        "curiosity": 1,
+        "duty": 0.3,
+        "pragmatism": 0.1,
+        "mysticism": 0.6
+      },
+      "bias": 0.0915
+    },
+    {
+      "id": "cleric",
+      "name": "祭司",
+      "skill": "回声安抚",
+      "desc": "替无法开口的人说话，替说不出口的话留位置。",
+      "profile": {
+        "order": 0.2,
+        "empathy": 1,
+        "boldness": -0.2,
+        "sociability": 0.8,
+        "curiosity": 0.1,
+        "duty": 0.7,
+        "pragmatism": 0.2,
+        "mysticism": 0.5
+      },
+      "bias": -0.1003
+    },
+    {
+      "id": "artisan",
+      "name": "工匠",
+      "skill": "结构直觉",
+      "desc": "相信这个世界是可以被修好的，只要找对受力点。",
+      "profile": {
+        "order": 0.9,
+        "empathy": 0.1,
+        "boldness": -0.6,
+        "sociability": 0.2,
+        "curiosity": 0.3,
+        "duty": 0.7,
+        "pragmatism": 1,
+        "mysticism": -0.2
+      },
+      "bias": 0.0461
+    },
+    {
+      "id": "shadow",
+      "name": "暗影行者",
+      "skill": "无声路径",
+      "desc": "从不与正门打交道，也不需要被看见。",
+      "profile": {
+        "order": -0.8,
+        "empathy": -0.5,
+        "boldness": 0.3,
+        "sociability": -0.85,
+        "curiosity": 0.5,
+        "duty": 0.1,
+        "pragmatism": 0.8,
+        "mysticism": 0.2
+      },
+      "bias": 0.1034
+    }
+  ],
+  "factions": [
+    {
+      "id": "council",
+      "name": "黎明议会",
+      "crest": "盾",
+      "desc": "相信秩序是唯一能挡住黑夜的东西。",
+      "profile": {
+        "order": 0.9,
+        "empathy": 0.4,
+        "boldness": 0.3,
+        "sociability": 0.5,
+        "curiosity": 0.1,
+        "duty": 0.9,
+        "pragmatism": 0.4,
+        "mysticism": 0.2
+      },
+      "bias": -0.0386
+    },
+    {
+      "id": "guild",
+      "name": "自由商团",
+      "crest": "秤",
+      "desc": "没有立场，只有报价；但他们从不出卖同行。",
+      "profile": {
+        "order": -0.4,
+        "empathy": 0.1,
+        "boldness": 0.5,
+        "sociability": 0.7,
+        "curiosity": 0.6,
+        "duty": 0.1,
+        "pragmatism": 0.9,
+        "mysticism": -0.3
+      },
+      "bias": 0.053
+    },
+    {
+      "id": "tide",
+      "name": "荒潮部族",
+      "crest": "骨",
+      "desc": "不承认任何边界，只承认部落与风。",
+      "profile": {
+        "order": -0.85,
+        "empathy": 0.2,
+        "boldness": 0.8,
+        "sociability": 0.4,
+        "curiosity": 0.2,
+        "duty": 0.3,
+        "pragmatism": 0.5,
+        "mysticism": 0.3
+      },
+      "bias": -0.0004
+    },
+    {
+      "id": "watchers",
+      "name": "无名守望",
+      "crest": "眼",
+      "desc": "不在名册上，却在每一件大事的背面。",
+      "profile": {
+        "order": 0.2,
+        "empathy": 0.1,
+        "boldness": -0.3,
+        "sociability": -1,
+        "curiosity": 0.7,
+        "duty": 0.8,
+        "pragmatism": 0.2,
+        "mysticism": 0.5
+      },
+      "bias": -0.0142
+    }
+  ],
+  "elements": {
+    "fire": {
+      "key": "fire",
+      "name": "火",
+      "glyph": "△",
+      "trait": "行动与热度"
+    },
+    "earth": {
+      "key": "earth",
+      "name": "土",
+      "glyph": "▽",
+      "trait": "稳固与积累"
+    },
+    "air": {
+      "key": "air",
+      "name": "风",
+      "glyph": "△̸",
+      "trait": "思辨与流动"
+    },
+    "water": {
+      "key": "water",
+      "name": "水",
+      "glyph": "▽̸",
+      "trait": "共感与深潜"
+    }
+  },
+  "zodiacs": [
+    {
+      "id": "aries",
+      "name": "白羊",
+      "element": "fire",
+      "deltas": {
+        "boldness": 0.7,
+        "duty": 0.3,
+        "order": 0.1
+      }
+    },
+    {
+      "id": "taurus",
+      "name": "金牛",
+      "element": "earth",
+      "deltas": {
+        "duty": 0.5,
+        "pragmatism": 0.6,
+        "order": 0.3
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "双子",
+      "element": "air",
+      "deltas": {
+        "curiosity": 0.8,
+        "sociability": 0.3
+      }
+    },
+    {
+      "id": "cancer",
+      "name": "巨蟹",
+      "element": "water",
+      "deltas": {
+        "empathy": 0.8,
+        "sociability": 0.3,
+        "duty": 0.2
+      }
+    },
+    {
+      "id": "leo",
+      "name": "狮子",
+      "element": "fire",
+      "deltas": {
+        "boldness": 0.6,
+        "sociability": 0.5,
+        "empathy": 0.2
+      }
+    },
+    {
+      "id": "virgo",
+      "name": "处女",
+      "element": "earth",
+      "deltas": {
+        "order": 0.6,
+        "pragmatism": 0.6,
+        "curiosity": 0.2
+      }
+    },
+    {
+      "id": "libra",
+      "name": "天秤",
+      "element": "air",
+      "deltas": {
+        "empathy": 0.5,
+        "sociability": 0.6
+      }
+    },
+    {
+      "id": "scorpio",
+      "name": "天蝎",
+      "element": "water",
+      "deltas": {
+        "mysticism": 0.7,
+        "empathy": 0.3,
+        "order": -0.2
+      }
+    },
+    {
+      "id": "sagittarius",
+      "name": "射手",
+      "element": "fire",
+      "deltas": {
+        "boldness": 0.6,
+        "curiosity": 0.7,
+        "order": -0.3
+      }
+    },
+    {
+      "id": "capricorn",
+      "name": "摩羯",
+      "element": "earth",
+      "deltas": {
+        "duty": 0.8,
+        "order": 0.5,
+        "pragmatism": 0.4
+      }
+    },
+    {
+      "id": "aquarius",
+      "name": "水瓶",
+      "element": "air",
+      "deltas": {
+        "curiosity": 0.8,
+        "sociability": -0.3,
+        "order": -0.3
+      }
+    },
+    {
+      "id": "pisces",
+      "name": "双鱼",
+      "element": "water",
+      "deltas": {
+        "empathy": 0.7,
+        "mysticism": 0.7,
+        "pragmatism": -0.2
+      }
+    }
+  ],
+  "tarot": [
+    {
+      "index": 0,
+      "id": "fool",
+      "name": "愚者",
+      "keyword": "启程",
+      "hook": "一切从那一步开始，而你还不知道要去哪。",
+      "deltas": {
+        "boldness": 0.6,
+        "curiosity": 0.4,
+        "order": -0.3
+      }
+    },
+    {
+      "index": 1,
+      "id": "magician",
+      "name": "魔术师",
+      "keyword": "意志",
+      "hook": "你曾把一句不可能的话，硬生生说成了真。",
+      "deltas": {
+        "curiosity": 0.5,
+        "duty": 0.4,
+        "pragmatism": 0.2
+      }
+    },
+    {
+      "index": 2,
+      "id": "priestess",
+      "name": "女祭司",
+      "keyword": "直觉",
+      "hook": "有个声音在你开口之前就已经知道了答案。",
+      "deltas": {
+        "mysticism": 0.7,
+        "curiosity": 0.4,
+        "sociability": -0.2
+      }
+    },
+    {
+      "index": 3,
+      "id": "empress",
+      "name": "皇后",
+      "keyword": "丰饶",
+      "hook": "你照料过的东西，至今仍在某处生长。",
+      "deltas": {
+        "empathy": 0.6,
+        "sociability": 0.4,
+        "duty": 0.2
+      }
+    },
+    {
+      "index": 4,
+      "id": "emperor",
+      "name": "皇帝",
+      "keyword": "秩序",
+      "hook": "你订下的第一条规矩，至今还立在那里。",
+      "deltas": {
+        "order": 0.7,
+        "duty": 0.6,
+        "boldness": 0.2
+      }
+    },
+    {
+      "index": 5,
+      "id": "hierophant",
+      "name": "教皇",
+      "keyword": "传承",
+      "hook": "有人把一件旧东西交到你手上，却没说为什么。",
+      "deltas": {
+        "duty": 0.6,
+        "order": 0.4,
+        "mysticism": 0.3
+      }
+    },
+    {
+      "index": 6,
+      "id": "lovers",
+      "name": "恋人",
+      "keyword": "抉择",
+      "hook": "你在同一个岔路口站过两次，选了不同的方向。",
+      "deltas": {
+        "empathy": 0.5,
+        "sociability": 0.5,
+        "mysticism": 0.1
+      }
+    },
+    {
+      "index": 7,
+      "id": "chariot",
+      "name": "战车",
+      "keyword": "挺进",
+      "hook": "你曾经在明知会输的情况下，还是往前走了。",
+      "deltas": {
+        "boldness": 0.8,
+        "duty": 0.3,
+        "order": 0.2
+      }
+    },
+    {
+      "index": 8,
+      "id": "strength",
+      "name": "力量",
+      "keyword": "驯服",
+      "hook": "你放过了一个本可以杀死你的东西。",
+      "deltas": {
+        "empathy": 0.5,
+        "duty": 0.4,
+        "boldness": 0.2
+      }
+    },
+    {
+      "index": 9,
+      "id": "hermit",
+      "name": "隐者",
+      "keyword": "内省",
+      "hook": "你独自走过一段没人知道的夜路。",
+      "deltas": {
+        "sociability": -0.8,
+        "curiosity": 0.5,
+        "mysticism": 0.4
+      }
+    },
+    {
+      "index": 10,
+      "id": "wheel",
+      "name": "命运之轮",
+      "keyword": "转机",
+      "hook": "一件与你无关的小事，彻底改了你的路。",
+      "deltas": {
+        "curiosity": 0.5,
+        "boldness": 0.3,
+        "order": -0.2
+      }
+    },
+    {
+      "index": 11,
+      "id": "justice",
+      "name": "正义",
+      "keyword": "权衡",
+      "hook": "你做过一次没有人拍手的公平裁决。",
+      "deltas": {
+        "order": 0.7,
+        "empathy": -0.3,
+        "duty": 0.4
+      }
+    },
+    {
+      "index": 12,
+      "id": "hanged",
+      "name": "倒吊人",
+      "keyword": "悬置",
+      "hook": "你主动停下过一次，而那次停下救了人。",
+      "deltas": {
+        "empathy": 0.5,
+        "mysticism": 0.4,
+        "boldness": -0.3
+      }
+    },
+    {
+      "index": 13,
+      "id": "death",
+      "name": "死神",
+      "keyword": "蜕变",
+      "hook": "你把旧的自己留在原地了，没回头。",
+      "deltas": {
+        "order": -0.5,
+        "boldness": 0.3,
+        "mysticism": 0.3
+      }
+    },
+    {
+      "index": 14,
+      "id": "temperance",
+      "name": "节制",
+      "keyword": "调和",
+      "hook": "你把两种互不相容的东西，兑到了一起。",
+      "deltas": {
+        "empathy": 0.4,
+        "pragmatism": 0.5,
+        "order": 0.2
+      }
+    },
+    {
+      "index": 15,
+      "id": "devil",
+      "name": "恶魔",
+      "keyword": "执念",
+      "hook": "有一样东西你始终没有放手，也不打算放。",
+      "deltas": {
+        "boldness": 0.4,
+        "order": -0.4,
+        "pragmatism": 0.5
+      }
+    },
+    {
+      "index": 16,
+      "id": "tower",
+      "name": "塔",
+      "keyword": "崩解",
+      "hook": "你亲手推倒过一座自己盖起来的塔。",
+      "deltas": {
+        "order": -0.7,
+        "boldness": 0.5,
+        "empathy": -0.2
+      }
+    },
+    {
+      "index": 17,
+      "id": "star",
+      "name": "星星",
+      "keyword": "希望",
+      "hook": "在最黑的夜里，你替别人守住了一点光。",
+      "deltas": {
+        "empathy": 0.6,
+        "mysticism": 0.5,
+        "duty": 0.2
+      }
+    },
+    {
+      "index": 18,
+      "id": "moon",
+      "name": "月亮",
+      "keyword": "迷障",
+      "hook": "你被骗过一次，后来学会了看雾的形状。",
+      "deltas": {
+        "mysticism": 0.8,
+        "curiosity": 0.3,
+        "sociability": -0.2
+      }
+    },
+    {
+      "index": 19,
+      "id": "sun",
+      "name": "太阳",
+      "keyword": "显耀",
+      "hook": "有一个瞬间，所有人同时看向了你。",
+      "deltas": {
+        "sociability": 0.7,
+        "empathy": 0.5,
+        "boldness": 0.3
+      }
+    },
+    {
+      "index": 20,
+      "id": "judgement",
+      "name": "审判",
+      "keyword": "觉醒",
+      "hook": "有人在最该沉默的时候喊了你的名字。",
+      "deltas": {
+        "duty": 0.6,
+        "mysticism": 0.4,
+        "order": 0.2
+      }
+    },
+    {
+      "index": 21,
+      "id": "world",
+      "name": "世界",
+      "keyword": "圆满",
+      "hook": "你走到过一端，却发现另一端还有路。",
+      "deltas": {
+        "curiosity": 0.5,
+        "duty": 0.4,
+        "empathy": 0.3
+      }
+    }
+  ],
+  "positions": [
+    {
+      "key": "past",
+      "label": "过往"
+    },
+    {
+      "key": "present",
+      "label": "当下"
+    },
+    {
+      "key": "future",
+      "label": "未至"
+    }
+  ],
+  "statLabels": {
+    "might": "力量",
+    "agility": "敏捷",
+    "intellect": "智力",
+    "perception": "感知",
+    "charm": "魅力",
+    "will": "意志"
+  },
+  "weaknesses": {
+    "might": {
+      "high": "你偶尔冲得比准备快。",
+      "low": "硬碰硬之前，你会先掂量。"
+    },
+    "agility": {
+      "high": "你想得太细，反而会慢一拍。",
+      "low": "计划一变，你会想先停一下。"
+    },
+    "intellect": {
+      "high": "你想知道的事有点多。",
+      "low": "太绕的问题，你兴趣不大。"
+    },
+    "perception": {
+      "high": "你容易在模糊的地方多停留。",
+      "low": "有些细节，你事后才注意到。"
+    },
+    "charm": {
+      "high": "你的话有时太软，容易被人当成没主意。",
+      "low": "你的意思，常常要多解释一句。"
+    },
+    "will": {
+      "high": "你习惯自己扛着。",
+      "low": "战线一长，你会想换口气。"
+    }
+  },
+  "statsMapping": {
+    "might": {
+      "boldness": 1.5,
+      "duty": 0.7,
+      "order": 0.3
+    },
+    "agility": {
+      "boldness": 1.1,
+      "pragmatism": 0.6,
+      "order": -0.4
+    },
+    "intellect": {
+      "curiosity": 1.2,
+      "empathy": -0.9,
+      "pragmatism": 0.4
+    },
+    "perception": {
+      "curiosity": 0.8,
+      "mysticism": 0.7,
+      "empathy": 0.4,
+      "sociability": -0.3
+    },
+    "charm": {
+      "empathy": 1.1,
+      "sociability": 0.9,
+      "boldness": 0.2
+    },
+    "will": {
+      "duty": 1.2,
+      "order": 0.8,
+      "boldness": -0.3
+    }
+  },
+  "combine": {
+    "_notes": {
+      "vector": "每条选择的 deltas 是 8 维向量的一部分，8 道题分别主导 8 个不同维度，256 种作答对应 256 个方向",
+      "match": "作答、星座、塔罗各自先归一化，再分别与原型画像算余弦相似度，最后按 weights 加权求和；三个来源是并列的评委，不是答题的附属",
+      "tarot": "三张牌的 deltas 累加成独立向量参与评分，因此抽到不同牌组会改变称号、种族、职业与阵营，而不只是属性",
+      "secondary": "第一与第二原型的加权得分差小于该阈值时，记录副倾向",
+      "stats": "六项属性由累加向量线性映射后夹取，方向与强度都参与"
+    },
+    "weights": {
+      "answers": 1,
+      "zodiac": 0.35,
+      "tarot": 0.5
+    },
+    "normalize": "l2",
+    "match": "weightedCosine",
+    "secondaryGap": 0.03,
+    "stats": {
+      "base": 5,
+      "min": 1,
+      "max": 10,
+      "scale": 2.2,
+      "intensityRef": 10
+    },
+    "weaknessPick": "lowestStat",
+    "storyOrder": [
+      "past",
+      "present",
+      "future"
+    ],
+    "serialPrefix": "AP-",
+    "serialLength": 4
+  },
+  "narrative": {
+    "lines": [
+      "opener",
+      "tension",
+      "trait",
+      "context",
+      "origin",
+      "closing"
+    ],
+    "thresholds": {
+      "tension": 0.3
+    },
+    "connectors": {
+      "same": "而且",
+      "opposite": "但"
+    },
+    "phrases": {
+      "order": {
+        "high": "讲究次序",
+        "low": "信临场判断"
+      },
+      "empathy": {
+        "high": "先看人受了什么",
+        "low": "先看因果链"
+      },
+      "boldness": {
+        "high": "倾向先迈一步",
+        "low": "习惯等看清"
+      },
+      "sociability": {
+        "high": "在人群里反而清醒",
+        "low": "靠独处回血"
+      },
+      "curiosity": {
+        "high": "放不下看不懂的东西",
+        "low": "只关心用得上的"
+      },
+      "duty": {
+        "high": "把托付的事做完",
+        "low": "不轻易接别人的担子"
+      },
+      "pragmatism": {
+        "high": "算得清代价",
+        "low": "把值不值得放前面"
+      },
+      "mysticism": {
+        "high": "总觉得世界背面还有一层",
+        "low": "只信看得见的东西"
+      }
+    },
+    "templates": {
+      "opener": {
+        "oathkeeper": "你习惯先站在别人前面，再考虑自己。",
+        "peakpriest": "你听见的东西，别人多半听不见。",
+        "vigil": "你不擅长许诺，但你会一直待在原地。",
+        "chronicler": "你记录一切，连沉默也记。",
+        "arbiter": "你先承担代价，再谈公平。",
+        "spirescholar": "你对世界的兴趣，是把它拆开看。",
+        "builder": "你不写史诗，你造能挡住风雪的东西。",
+        "gatekeeper": "有些门必须有人守着，哪怕无人知晓。",
+        "firesinger": "你能把陌生的地方，变成有火的地方。",
+        "wildchanter": "你和万物之间有一条看不见的线。",
+        "herbalist": "你在生活最不起眼的缝里收集东西。",
+        "mistwatcher": "你退得恰到好处，因而看得格外清楚。",
+        "cliffstracker": "你的每一步冒险，都先算过赔率。",
+        "mapless": "你不属于任何一张现成的地图。",
+        "oddsmaker": "你擅长在混沌里找概率。",
+        "scavenger": "你在别人不敢去的地方翻找。"
+      },
+      "tension": "你{a}；{opposite}另一面，你{b}。",
+      "progression": "你{a}，{same}{b}。",
+      "context": "你把{job}这行做成了自己的样子，最后落在{faction}。",
+      "closing": "{element}你的过往写着「{past}」。",
+      "secondary": "你身上还有一部分，像{title}。",
+      "trait": "在别的事上，你{a}。",
+      "origin": {
+        "human": "你身上没什么标签，反而让人摸不透。",
+        "elf": "你习惯在别人睡着之后还醒着。",
+        "dwarf": "你做事慢，但很少返工。",
+        "orc": "你身上有一道不愿解释的旧伤。",
+        "dragonkin": "你体内有某种东西，偶尔会烧上来。",
+        "automaton": "你花了很久，才学会像人一样犹豫。"
+      }
+    },
+    "elements": {
+      "fire": "火给了你不太犹豫的底气。",
+      "earth": "土让你站得住，也让你慢。",
+      "air": "风让你总在找新的角度。",
+      "water": "水让你听见别人没说出口的话。"
+    }
+  },
+  "weaknessTraits": {
+    "might": "boldness",
+    "agility": "pragmatism",
+    "intellect": "curiosity",
+    "perception": "mysticism",
+    "charm": "empathy",
+    "will": "duty"
+  },
+  "weaknessTails": {
+    "might": "要拼硬力气的时候，你更愿意换个办法。",
+    "agility": "变数一多，你会想先稳一稳。",
+    "intellect": "太绕的局，你不太想深挖。",
+    "perception": "关键的细节，你容易过后才想起。",
+    "charm": "别人偶尔会误解你的语气。",
+    "will": "拖得太久，你的劲会先散一点。"
+  },
+  "scale": {
+    "labels": [
+      "很不符合",
+      "不符合",
+      "一般",
+      "比较符合",
+      "很符合"
+    ],
+    "values": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}
